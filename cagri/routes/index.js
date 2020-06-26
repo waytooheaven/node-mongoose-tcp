@@ -2,17 +2,6 @@ var express = require('express');
 var mongoose = require('mongoose');
 var net = require('net');
 var router = express.Router();
-var data = [
-  {
-    name: "Silence"
-  },
-  {
-    name: "Smith"
-  },
-  {
-    name: "Lisa"
-  }
-];
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
